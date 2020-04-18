@@ -13,6 +13,9 @@ def list_dwarves(array)
   #
   # Print a numbered list of each element
 
-
+dwarf_number = 1 
+  array.each do |name|
+    puts "#{dwarf_number}. #{name}"
+    dwarf_number += 1 
 
 end
