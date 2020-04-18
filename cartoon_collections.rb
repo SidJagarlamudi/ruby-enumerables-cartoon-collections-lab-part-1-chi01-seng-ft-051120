@@ -17,5 +17,5 @@ dwarf_number = 1
   array.each do |name|
     puts "#{dwarf_number}. #{name}"
     dwarf_number += 1 
-
+end
 end
